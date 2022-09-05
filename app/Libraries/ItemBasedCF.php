@@ -21,7 +21,7 @@ class ItemBasedCF
         $product = $this->product;
         $countNeighbors = $this->countNeighbors;
 
-        // Step 1: menghitung similaritas buku yang ingin diprediksi dengan buku-buku lain
+        // Step 1: menghitung similaritas produk yang ingin diprediksi dengan produk lain
         $similarities = $this->getSimilarities($product);
 
         // Step 2: mencari tahu neighbors

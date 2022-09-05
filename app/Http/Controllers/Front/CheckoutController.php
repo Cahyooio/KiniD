@@ -37,12 +37,12 @@ class CheckoutController extends Controller
         $user = auth()->user();
         $address = $user->member_addresses()->where('member_address_id', $request->get('member_address_id'))->first();
         if (!$address) {
-            return back()->with('danger', "Alamat tidak terdaftar.");
+            return back()->with('Maaf', "Alamat tidak terdaftar.");
         }
 
         $items = $cart->all();
         if (!count($items)) {
-            return back()->with('danger', 'Keranjang belanja anda kosong.');
+            return back()->with('Maaf', 'Keranjang belanja anda kosong.');
         }        
 
         $order = new Order;

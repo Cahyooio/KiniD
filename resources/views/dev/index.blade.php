@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.4/jquery.rateyo.min.css">
 
-    <title>DEV AREA</title>
+    <title>Sistem Rekomendasi</title>
   </head>
   <body style="background-color: #efefef;">
     <div class="container-fluid py-3">

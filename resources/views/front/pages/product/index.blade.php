@@ -48,6 +48,7 @@
           </a>
         </div>
         @endif
+        <br>
         @if($recommendation)
         <h4>Produk Rekomendasi</h4>
         <a href="{{ $recommendation->product->url_show }}">

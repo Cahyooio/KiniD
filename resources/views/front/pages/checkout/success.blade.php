@@ -33,7 +33,7 @@
               </div>
             </div>
             <div>
-              <p>Jika sudah, harap melakukan konfirmasi pembayaran pada tautan dibawah ini:</p>
+              <p>Diharapkan melakukan konfirmasi pembayaran pada tautan dibawah ini:</p>
               <div class="alert alert-secondary">
                 <a href="{{ route('front::payment-confirmation.form') }}">{{ route('front::payment-confirmation.form') }}</a>
               </div>

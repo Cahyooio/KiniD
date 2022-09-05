@@ -12,7 +12,11 @@
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->        
           
           </p>
-    
+
+      
+           
+      
+
           <p class="col-md-6 footer-text m-0 text-white text-right">
           <i class="ti-map-alt" aria-hidden="true"></i>
           Alamat  <br>

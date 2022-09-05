@@ -20,7 +20,7 @@ Route::group([
     Route::get('/', 'HomeController@index')->name('home');
 
     Route::get('/products', 'ProductController@index')->name('products.index');
-    Route::get('/about', 'ProductController@about')->name('products.about');
+   
     Route::get('/products/{slug}', 'ProductController@show')->name('products.show');
 
     Route::get('/cart', 'CartController@items')->name('cart.items');
